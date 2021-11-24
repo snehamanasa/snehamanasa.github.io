@@ -1,0 +1,41 @@
+table{
+	
+    margin-top: 50px;
+	width:1200px;
+	margin-left: 80px;
+	
+}
+p{
+	text-align: center;
+	color: black;
+	font: bold;
+	font-size: 25px;
+}
+nav{
+	 margin: 0;
+ font-size: 20px;
+}
+
+th{
+	text-align: left;
+
+}
+
+table, th, td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+ th, td{
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #fff;
+}
+tr:nth-child(odd){
+	background-color: #ddd ;
+}
+
+.attendance{
+    text-align: center;
+}
